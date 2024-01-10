@@ -1,8 +1,8 @@
-# jbrowse-react-circular-genome-view-vanillajs
+# jbrowse-react-app-vanillajs
 
-## Demo of `@jbrowse/react-circular-genome-view` using vanilla JS script tag import/no bundler
+## Demo of `@jbrowse/react-app` using vanilla JS script tag import/no bundler
 
-See this app running at https://jbrowse.org/demos/cgv-vanillajs/.
+See this app running at https://jbrowse.org/demos/app-vanillajs/.
 
 ## Usage
 
