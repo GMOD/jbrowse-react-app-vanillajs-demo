@@ -1,8 +1,8 @@
-/* global JBrowseReactCircularGenomeView React, ReactDOM */
+/* global JBrowseReactApp React, ReactDOM */
 import assembly from './assembly.js'
 import tracks from './tracks.js'
 
-const { createViewState, JBrowseApp } = JBrowseReactLinearGenomeView
+const { createViewState, JBrowseApp } = window.JBrowseReactApp
 
 const viewState = createViewState({
   config: {
