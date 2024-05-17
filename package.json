@@ -3,5 +3,8 @@
   "scripts": {
     "deploy": "aws s3 sync --delete . s3://jbrowse.org/demos/app-vanillajs/",
     "postdeploy": "aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-vanillajs/*\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
