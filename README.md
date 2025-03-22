@@ -1,6 +1,6 @@
 # jbrowse-react-app-vanillajs
 
-## Demo of `@jbrowse/react-app` using vanilla JS script tag import/no bundler
+Demo of `@jbrowse/react-app2` using vanilla JS script tag import/no bundler
 
 See this app running at https://jbrowse.org/demos/app-vanillajs/.
 
