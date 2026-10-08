@@ -1,8 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "deploy": "aws s3 sync --delete . s3://jbrowse.org/demos/app-vanillajs/",
-    "postdeploy": "AWS_PAGER=\"\"  aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-vanillajs/*\""
+    "deploy": "aws s3 sync --delete --exclude '*' --include index.html . s3://jbrowse.org/demos/app-vanillajs/ && AWS_PAGER=\"\" aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-vanillajs/*\""
   },
   "devDependencies": {
     "prettier": "^3.2.5"
